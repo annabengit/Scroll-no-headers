@@ -1,8 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Poppins:wght@600&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@700&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@700&family=Poppins:wght@600&display=swap"); */
+
+@font-face {
+  font-family: 'RadioGrotesk';
+  src: url('../fonts/radiogrotesk.zip') format('woff2'),
+  /* Add more src lines for additional file formats if needed */
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* Directory page styles */
 .directory {
@@ -36,7 +44,9 @@
 
 .main-title {
   color: black;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  /* font-family: "Poppins", Arial, Helvetica, sans-serif; */
+  font-family: 'RadioGrotesk', sans-serif;;
+  /* font-family: Radio; */
   font-size: 24px;
   font-weight: 600;
 }
@@ -57,7 +67,9 @@
 .sub-header {
   font-size: 20px;
   font-weight: 900;
-  font-family: "Hind Vadodara", sans-serif;
+  /* font-family: "Hind Vadodara", sans-serif; */
+  font-family: 'RadioGrotesk', sans-serif;;
+
   padding-bottom: 20px;
   color: black;
   line-height: 20px;
@@ -66,7 +78,8 @@
 
 .text {
   font-size: 16px;
-  font-family: "Hind Vadodara", sans-serif;
+  /* font-family: "Hind Vadodara", sans-serif; */
+  font-family: 'RadioGrotesk', sans-serif;
   color: #5c5d5f;
   line-height: 25px;
 }
@@ -105,7 +118,9 @@
   height: auto;
   width: 100%;
   color: black;
-  font-family: "Hind Vadodara", sans-serif;
+  /* font-family: "Hind Vadodara", sans-serif; */
+  font-family: 'RadioGrotesk', sans-serif;;
+
   font-size: 12px;
 }
 
